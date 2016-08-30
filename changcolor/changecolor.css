@@ -3,7 +3,10 @@
     padding:0;
   }
 	.bodyColor{
-  background-color:#999;  
+  background-color:#999; 
+  transition:background 2s; 
+  -webkit-transition:background 2s; 
+  -moz-transition:background 2s; 
 }
 .quoteboard{
   background-color:white;
@@ -18,6 +21,10 @@
 .center{
   margin:30px auto;
   width:400px;
+  transition:color 2s; 
+  -webkit-transition:color 2s; 
+  -moz-transition:color 2s;
+  
 }
 .center li{
   list-style:none;
@@ -44,6 +51,9 @@ button{
   border:0;
   background-color:#999;
   color:white;
+  transition:background 2s; 
+  -webkit-transition:background 2s; 
+  -moz-transition:background 2s;
 }
 button.fa{
   margin-left:10px;
