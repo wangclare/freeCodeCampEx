@@ -1,0 +1,52 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+.bgColor{
+	background:#6c4103;
+}
+.basicbg{
+	width:320px;
+	height:410px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-205px;
+	margin-left:-160px;
+	background:#9b5d04;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.caltitle{
+	font-family:cursive;
+	font-size:30px;
+	color:#6f099e;
+	text-align:center;
+	margin-top:5px;
+}
+#screen{
+	width:90%;
+	height:30px;
+	margin:5px auto;
+	background:#cf994c;
+	opacity:0.8;
+	color:black;
+	font-size:25px;
+	text-align:right;       
+}
+
+#numbtn{
+	width:90%;
+	margin:5px auto;
+}
+#numbtn button{
+	width:20%;
+	margin:5px;
+	border:none;
+	height:50px;
+	background:#1d910a;
+	opacity:0.8;
+	font-size:20px;
+}
